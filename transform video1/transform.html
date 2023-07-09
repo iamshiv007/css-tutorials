@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+  </head>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background: red;
+      margin: auto;
+      margin-bottom: 30px;
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: white;
+      padding: 10px;
+    }
+
+    .box-2 {
+      background-color: blue;
+    }
+
+    .box-3 {
+      background-color: yellow;
+    }
+
+    .box-4 {
+      background-color: green;
+    }
+
+    .box-5 {
+      background-color: pink;
+    }
+
+    .box-6 {
+      background-color: rgb(146, 230, 146);
+    }
+   
+    .box-7 {
+      background-color: rgb(41, 149, 182);
+    }
+   
+    .box-8 {
+      background-color: rgb(195, 238, 109);
+    }
+   
+    .box-9 {
+      background-color: rgb(137, 114, 196);
+    }
+
+    .box-1:hover {
+      transform: translate(100px);
+    }
+
+    .box-2:hover {
+      transform: translatey(-100px);
+    }
+
+    .box-3:hover {
+      transform: translate(100px, 100px);
+    }
+
+    .box-4:hover {
+      transform: rotateX(45deg);
+    }
+
+    .box-5:hover {
+      transform: rotateY(45deg);
+    }
+
+    .box-6:hover {
+      transform: rotateZ(45deg);
+    }
+   
+    .box-7:hover {
+      transform: skewX(45deg);
+    }
+    
+    .box-8:hover {
+      transform: skewY(45deg);
+    }
+    
+    .box-9:hover {
+      transform: skew(25deg, 25deg);
+    }
+  </style>
+  <body>
+    <div class="box-1 box">translateX(100px)</div>
+    <div class="box-2 box">translateY(-100px)</div>
+    <div class="box-3 box">translate(100px, 100px)</div>
+    <div class="box-4 box">rotateX(45deg)</div>
+    <div class="box-5 box">rotateY(45deg)</div>
+    <div class="box-6 box">rotateZ(45deg)</div>
+    <div class="box-7 box">skewX(45deg)</div>
+    <div class="box-8 box">skewY(45deg)</div>
+    <div class="box-9 box">skew(45deg, 45deg)</div>
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+1. transform: rotate(45deg);  rotateZ  No
+2. transform: rotateX(30deg);
+3. transform: rotateY(45deg);
+4. transform: rotateZ(45deg);
+5. transform: rotate3d(0, 1, 1, 45deg);  No
+6. transform: skew(20deg);  skewX  No
+7. transform: skew(20deg, 20deg);
+8. transform: skewX(20deg);
+9. transform: skewY(20deg);
+10. transform: translate(50px);  translateX  No
+11. transform: translate(50px, 50px);
+12. transform: translate3d(50px, 50px, 50px);  No
+13. transform: translateX(50px);
+14. transform: translateY(100px);
+15. transform: perspective(300px) translateZ(-100px);  No
+
+
+1. transform: rotateX(30deg);
+2. transform: rotateY(45deg);
+3. transform: rotateZ(45deg);
+4. transform: skewX(20deg);
+5. transform: skewY(20deg);
+6. transform: skew(20deg, 20deg);
+7. transform: translateX(50px);
+8. transform: translateY(100px);
+9. transform: translate(50px, 50px);
